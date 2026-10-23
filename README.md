@@ -27,8 +27,17 @@ wird aus dem Volumen der in der Datei gespeicherten Bounding Box abgeleitet:
 ```text
 create/                         Create-Mod-Builds
 farms/                          Farmen und technische Builds
+farms/community/                Frei weiterverteilbare Community-Farmen
 lobbies/                        Server-Lobbys und Hubs
 medieval/boats/                 Mittelalterliche Schiffe
 medieval/buildings/houses/      Mittelalterliche Häuser
 medieval/buildings/towers/      Mittelalterliche Türme
+redstone/community/             Redstone-Module und technische Komponenten
+storage/community/              Lager- und Sortiersysteme
 ```
+
+## Drittanbieter-Builds
+
+Importierte Community-Dateien bleiben ihren ursprünglichen Urhebern und
+Lizenzbedingungen zugeordnet. Quellen, feste Commit-Stände und Nutzungsrechte
+sind in [THIRD_PARTY_ATTRIBUTION.md](THIRD_PARTY_ATTRIBUTION.md) dokumentiert.
