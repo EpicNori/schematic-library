@@ -10,9 +10,8 @@ Schema umbenannt und einsortiert; ihre Binärinhalte wurden nicht verändert.
 - Importierter Stand: [`c3956162182bbef0413c601ef1c26691f7783a36`](https://github.com/DuskScorpio/Scorpio-File-Downloads/commit/c3956162182bbef0413c601ef1c26691f7783a36)
 - Lizenz: CC0 1.0 Universal
 - Importiert: 81 geprüfte `.litematic`-Dateien
-- Ablageorte: `farms/community/dusk_scorpio/`,
-  `redstone/community/dusk_scorpio/` und
-  `storage/community/dusk_scorpio/`
+- Ablageorte: die jeweils passenden Unterordner unter `farms/` sowie
+  `builds/redstone/` und `builds/storage/`
 
 Die ursprünglichen Autorenangaben bleiben zusätzlich in den NBT-Metadaten der
 Dateien erhalten. Ein ausdrücklich als Testdatei markierter Entwurf sowie vier
@@ -30,10 +29,10 @@ Dateien mit Command-Blöcken wurden aus Qualitäts- und Sicherheitsgründen nich
 - Getestete Minecraft-Version laut Quelle: Java 1.21
 - Importiert: sechs Dateien für drei Farmen, jeweils als `.litematic` und
   `.schem`
-- Ablageort: `farms/community/casual_minecraft/`
+- Ablageorte: `farms/iron/` und `farms/wool/`
 
 Die erforderliche Quellenangabe wird durch diesen Abschnitt und die
-quellenspezifische Ordnerbenennung erfüllt.
+Dateinamen mit dem Zusatz `casual` erfüllt.
 
 ## Tom Gidden — Minecraft Schematics
 
@@ -43,7 +42,8 @@ quellenspezifische Ordnerbenennung erfüllt.
 - Urheber: Tom Gidden / `_gid`
 - Importiert: fünf `.litematic`-Dateien für Honig-, Bambus-, Creeper- und
   Wollfarmen
-- Ablageort: `farms/community/tom_gidden/`
+- Ablageorte: `farms/bamboo/`, `farms/creeper/`, `farms/honey/` und
+  `farms/wool/`
 
 Die Binärdateien wurden nicht verändert, sondern nur nach dem Schema dieser
 Bibliothek umbenannt. Eine Kopie der quellenspezifischen Lizenz liegt unter
@@ -57,7 +57,7 @@ Bibliothek umbenannt. Eine Kopie der quellenspezifischen Lizenz liegt unter
 - Urheber der Schematics: OpenBagTwo
 - Importiert: zwei `.litematic`-Dateien für eine Moos-/Knochenmehlfarm und
   eine Harzfarm
-- Ablageort: `farms/community/openbagtwo/`
+- Ablageorte: `farms/bonemeal/` und `farms/resin/`
 
 Laut Quell-README basiert AChromoss auf einem Farmdesign von
 [@maidofmoss](https://www.youtube.com/@maidofmoss); die Mothership-Harzfarm
@@ -75,7 +75,7 @@ umbenannt. Eine Lizenzkopie liegt unter
 - Laut Quelle geeignet für Minecraft Java 1.21+
 - Importiert: zwei `.litematic`-Dateien für automatische Potion-Brewer mit
   zwei beziehungsweise fünf Zutaten
-- Ablageort: `redstone/community/flafydev/`
+- Ablageort: `farms/potions/`
 
 Die Binärdateien wurden nur umbenannt. Eine Lizenzkopie liegt unter
 `third_party_licenses/flafydev_mit.txt`.
@@ -88,7 +88,7 @@ Die Binärdateien wurden nur umbenannt. Eine Lizenzkopie liegt unter
   Kopie, Bearbeitung und Weiterverteilung ausdrücklich
 - Urheber: Shino Hinaduki
 - Importiert: eine Baumfarm jeweils als `.schem` und `.schematic`
-- Ablageort: `farms/community/stackstuck/`
+- Ablageort: `farms/tree/`
 
 Die Binärdateien wurden nur umbenannt. Eine Lizenzkopie liegt unter
 `third_party_licenses/stackstuck_mit.txt`.

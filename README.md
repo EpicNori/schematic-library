@@ -1,7 +1,13 @@
 # Schematic Library
 
-Minecraft-Builds werden nach Kategorie und Thema abgelegt. Alle Ordner- und
-Dateinamen verwenden englisches `snake_case`.
+Die Bibliothek hat zwei Hauptbereiche:
+
+- `farms/<farmtyp>/` enthält alles, womit Ressourcen, Mobs oder XP erzeugt
+  werden. Die verwendete Technik oder Redstone-Komplexität spielt dabei keine
+  Rolle.
+- `builds/<bauwerk>/` enthält Bauwerke und eigenständige technische Module.
+
+Alle Ordner- und Dateinamen verwenden englisches `snake_case`.
 
 ## Namensschema
 
@@ -25,19 +31,43 @@ wird aus dem Volumen der in der Datei gespeicherten Bounding Box abgeleitet:
 ## Struktur
 
 ```text
-create/                         Create-Mod-Builds
-farms/                          Farmen und technische Builds
-farms/community/                Frei weiterverteilbare Community-Farmen
-lobbies/                        Server-Lobbys und Hubs
-medieval/boats/                 Mittelalterliche Schiffe
-medieval/buildings/houses/      Mittelalterliche Häuser
-medieval/buildings/towers/      Mittelalterliche Türme
-redstone/community/             Redstone-Module und technische Komponenten
-storage/community/              Lager- und Sortiersysteme
+farms/
+  bamboo/                       Bambusfarmen
+  bonemeal/                     Knochenmehlfarmen
+  cactus/                       Kaktusfarmen
+  cobblestone/                  Bruchsteinfarmen
+  concrete/                     Betonfabriken
+  creeper/                      Creeperfarmen
+  dirt/                         Erdfarmen und Konverter
+  honey/                        Honig- und Bienenfarmen
+  iron/                         Eisenfarmen
+  mob/                          Allgemeine Mobfarmen
+  moss/                         Moosfarmen
+  obsidian/                     Obsidianfarmen
+  potions/                      Automatische Trankbrauer
+  raid/                         Raidfarmen
+  resin/                        Harzfarmen
+  sand/                         Sandfarmen und Sandduper
+  snow/                         Schneefarmen
+  tree/                         Baumfarmen aller Holzarten
+  tripwire_hook/                Stolperhakenfarmen
+  wither_rose/                  Witherrosenfarmen
+  wool/                         Wollfarmen
+  xp/                           XP-Farmen
+
+builds/
+  boats/                        Schiffe und Boote
+  houses/                       Häuser und Geschäfte
+  lobbies/                      Server-Lobbys und Hubs
+  redstone/                     Eigenständige Redstone-Module
+  storage/                      Lager- und Sortiersysteme
+  towers/                       Türme
+
+third_party_licenses/           Lizenztexte importierter Dateien
 ```
 
 ## Drittanbieter-Builds
 
-Importierte Community-Dateien bleiben ihren ursprünglichen Urhebern und
+Importierte Drittanbieter-Dateien bleiben ihren ursprünglichen Urhebern und
 Lizenzbedingungen zugeordnet. Quellen, feste Commit-Stände und Nutzungsrechte
 sind in [THIRD_PARTY_ATTRIBUTION.md](THIRD_PARTY_ATTRIBUTION.md) dokumentiert.
